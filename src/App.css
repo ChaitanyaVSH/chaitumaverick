@@ -20,3 +20,17 @@
   height: 100vh;
   margin-top: 0px;
 }
+
+.lineParticles {
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .lineParticles {
+    display: none;
+  }
+
+  .btnModified {
+    margin-top: 10px;
+  }
+}

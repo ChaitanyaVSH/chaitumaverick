@@ -5,7 +5,7 @@ export default class LineParticles extends Component {
     render() {
         return (
             <div>
-                <Particles params={
+                <Particles className="lineParticles" params={
                     {
 	                    "particles": {
 	                        "number": {
