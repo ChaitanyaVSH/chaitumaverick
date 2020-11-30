@@ -5,6 +5,7 @@ import {Button} from "react-bootstrap";
 import ParticlesJS from "./components/Particles";
 import "./App.css";
 import LineParticles from './components/LineParticles';
+import CountersContainer from "./components/counters/CountersContainer";
 
 export default class App extends Component {
   render() {
@@ -22,7 +23,8 @@ export default class App extends Component {
         <Button variant="success" href="https://www.hackerrank.com/qwertyfellow" target="_blank" className="btnModified">Hackerrank</Button>
         <LineParticles/>
       </Jumbotron>
-      <ParticlesJS/>
+      <CountersContainer/>
+      {/* <ParticlesJS/> */}
       </div>
 
     )
