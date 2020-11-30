@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import emojify from "node-emojify";
 import {Jumbotron} from "react-bootstrap";
 import {Button} from "react-bootstrap";
-import ParticlesJS from "./components/Particles";
 import "./App.css";
 import LineParticles from './components/LineParticles';
 import CountersContainer from "./components/counters/CountersContainer";
@@ -18,13 +17,12 @@ export default class App extends Component {
         <p>You can always find me loving myself... {emojify(":heart:")}</p>
         <p>Life is never only about <code>ctrl C</code> and <code>ctrl V</code></p>
         <br/>
-        <Button variant="secondary" href="https://github.com/ChaitanyaVSH" target="_blank" className="btnModified">Github</Button>
-        <Button variant="info" href="https://www.linkedin.com/in/kotipalli-chaitanya-977917150/" target="_blank" className="btnModified">LinkedIN</Button>
-        <Button variant="success" href="https://www.hackerrank.com/qwertyfellow" target="_blank" className="btnModified">Hackerrank</Button>
+        <Button variant="outline-secondary" href="https://github.com/ChaitanyaVSH" target="_blank" className="btnModified">Github</Button>
+        <Button variant="outline-info" href="https://www.linkedin.com/in/kotipalli-chaitanya-977917150/" target="_blank" className="btnModified">LinkedIN</Button>
+        <Button variant="outline-success" href="https://www.hackerrank.com/qwertyfellow" target="_blank" className="btnModified">Hackerrank</Button>
         <LineParticles/>
       </Jumbotron>
       <CountersContainer/>
-      {/* <ParticlesJS/> */}
       </div>
 
     )
