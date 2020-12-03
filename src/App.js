@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import emojify from "node-emojify";
-import {Jumbotron} from "react-bootstrap";
-import {Button} from "react-bootstrap";
+import {Jumbotron, Button} from "react-bootstrap";
 import "./App.css";
 import LineParticles from './components/LineParticles';
 import CountersContainer from "./components/counters/CountersContainer";
+// import Project from './components/projects/Project';
 
 export default class App extends Component {
   render() {
@@ -22,6 +22,7 @@ export default class App extends Component {
         <Button variant="outline-success" href="https://www.hackerrank.com/qwertyfellow" target="_blank" className="btnModified">Hackerrank</Button>
         <LineParticles/>
       </Jumbotron>
+      {/* <Project/> */}
       <CountersContainer/>
       </div>
 
