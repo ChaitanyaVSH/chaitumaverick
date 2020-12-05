@@ -3,7 +3,6 @@ import emojify from "node-emojify";
 import {Jumbotron, Button} from "react-bootstrap";
 import "./App.css";
 import LineParticles from './components/LineParticles';
-import CountersContainer from "./components/counters/CountersContainer";
 import ProjectContainer from './components/projects/ProjectsContainer';
 
 export default class App extends Component {
