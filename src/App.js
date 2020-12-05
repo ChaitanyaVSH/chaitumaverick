@@ -4,7 +4,7 @@ import {Jumbotron, Button} from "react-bootstrap";
 import "./App.css";
 import LineParticles from './components/LineParticles';
 import CountersContainer from "./components/counters/CountersContainer";
-// import Project from './components/projects/Project';
+import ProjectContainer from './components/projects/ProjectsContainer';
 
 export default class App extends Component {
   render() {
@@ -22,8 +22,7 @@ export default class App extends Component {
         <Button variant="outline-success" href="https://www.hackerrank.com/qwertyfellow" target="_blank" className="btnModified">Hackerrank</Button>
         <LineParticles/>
       </Jumbotron>
-      {/* <Project/> */}
-      <CountersContainer/>
+      <ProjectContainer/>
       </div>
 
     )

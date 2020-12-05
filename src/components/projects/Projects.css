@@ -1,0 +1,22 @@
+#ProjectCard {
+  background-color: white;
+  color: black;
+  height: auto;
+  width: 20rem;
+  margin: 2rem auto;
+  border-radius: 8px;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
+}
+
+#ProjectCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ProjectContainer {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 1rem;
+  justify-content: center;
+}
