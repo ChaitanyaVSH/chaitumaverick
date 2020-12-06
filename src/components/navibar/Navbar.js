@@ -1,5 +1,6 @@
 import React from "react";
 import {Navbar, Nav} from "react-bootstrap";
+import {Link} from "react-scroll";
 
 
 const NavigationBar = () => {
@@ -12,8 +13,8 @@ const NavigationBar = () => {
 
                 <Navbar.Collapse>
                     <Nav className="mr-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#projectsContainer">Projects</Nav.Link>
+                        <Link to="home" smooth="true"><Nav.Link href="#home">Home</Nav.Link></Link>
+                        <Link to="projectsContainer" smooth="true"><Nav.Link href="#projectsContainer">Projects</Nav.Link></Link>
                     </Nav>
                 </Navbar.Collapse>
 
@@ -27,4 +28,5 @@ export default NavigationBar;
 
 /**
  * * This component is designed using the react bootstrap: https://react-bootstrap.github.io/components/navbar/
+ * * Smooth Scroll effect is added using the "react-scroll" npm package: https://www.npmjs.com/package/react-scroll
  */
