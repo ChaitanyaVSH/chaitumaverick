@@ -13,8 +13,8 @@ const NavigationBar = () => {
 
                 <Navbar.Collapse>
                     <Nav className="mr-auto">
-                        <Link to="home" smooth="true"><Nav.Link href="#home">Home</Nav.Link></Link>
-                        <Link to="projectsContainer" smooth="true"><Nav.Link href="#projectsContainer">Projects</Nav.Link></Link>
+                        <Link to="home" smooth="true" duration="300"><Nav.Link href="#home">Home</Nav.Link></Link>
+                        <Link to="projectsContainer" smooth="true" duration="1000"><Nav.Link href="#projectsContainer">Projects</Nav.Link></Link>
                     </Nav>
                 </Navbar.Collapse>
 
