@@ -4,11 +4,10 @@ import Project from "./Project";
 import projects from "../../data/projects";
 
 
-const ProjectContainer = (props) =>{
+const ProjectContainer = () =>{
 
-    console.log(projects);
     return (
-        <div>
+        <div id="projectsContainer">
         <div className="ProjectContainer">
             {projects.map((project)=>(
                 <Project key={uuidv4()} title={project.title} subtitle={project.subtitle} description={project.description} link={project.link} github={project.github}/>

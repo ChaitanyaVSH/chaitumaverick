@@ -4,12 +4,14 @@ import {Jumbotron, Button} from "react-bootstrap";
 import "./App.css";
 import LineParticles from './components/LineParticles';
 import ProjectContainer from './components/projects/ProjectsContainer';
+import NavigationBar from './components/navibar/Navbar';
 
 export default class App extends Component {
   render() {
     return (
 
-      <div>
+      <div id="home">
+        <NavigationBar/>
         <Jumbotron fluid id="temp">
         <h1 className="display-3">Hey, I'm Chaitu Maverick</h1>
         <p>Knock Knock</p>
