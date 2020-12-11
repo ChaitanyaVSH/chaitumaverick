@@ -13,7 +13,7 @@ export default class Counter extends Component {
             // </div>
             <div className="card">
                 <div className="card-header">
-                    <h1><CountUp end={this.props.value} duration={60}/></h1>
+                    <h1><CountUp end={this.props.value} duration={3}/></h1>
                 </div>
 
                 <div className="card-content">
