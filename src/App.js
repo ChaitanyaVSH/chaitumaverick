@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import emojify from "node-emojify";
 import {Jumbotron, Button} from "react-bootstrap";
-import "./App.css";
 import LineParticles from './components/particleAnimations/LineParticles';
 import ProjectContainer from './components/projects/ProjectsContainer';
 import NavigationBar from './components/navibar/Navbar';
+import EducationContainer from './components/education/EducationContainer';
 //import Skills from './components/skill/Skills';
-
+import "./App.css";
 export default class App extends Component {
   render() {
     return (
@@ -25,6 +25,7 @@ export default class App extends Component {
         <LineParticles/>
       </Jumbotron>
       <ProjectContainer/>
+      <EducationContainer/>
       </div>
 
     )
