@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
-import "../../App.css";
+import React from "react";
+import {Button} from "react-bootstrap";
+import "./Skills.css";
 
-export default class Skill extends Component {
-    render() {
-        return (
-            <div className="skill">
-                    <h1>Skills</h1>
-            </div>
-        )
-    }
+const Skill = ({name, expertise, experience, logo}) => {
+    return(
+            <Button id="skillButton" variant="outline-success">{name} {<hr/>} {expertise} {<br/>} {experience}</Button>
+    );
 }
+
+export default Skill;

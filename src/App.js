@@ -5,7 +5,8 @@ import LineParticles from './components/particleAnimations/LineParticles';
 import ProjectContainer from './components/projects/ProjectsContainer';
 import NavigationBar from './components/navibar/Navbar';
 import EducationContainer from './components/education/EducationContainer';
-//import Skills from './components/skill/Skills';
+import SkillsContainer from './components/skills/SkillsContainer';
+
 import "./App.css";
 export default class App extends Component {
   render() {
@@ -26,6 +27,7 @@ export default class App extends Component {
       </Jumbotron>
       <ProjectContainer/>
       <EducationContainer/>
+      <SkillsContainer/>
       </div>
 
     )
