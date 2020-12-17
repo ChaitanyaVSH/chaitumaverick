@@ -9,11 +9,22 @@ export default class LineParticles extends Component {
                     {
 	                    "particles": {
 	                        "number": {
-	                            "value": 50
+								"value": 50,
+								"density": {
+									"enable": true,
+									"value_area": 1000
+								}
 	                        },
-	                    "size": {
-	                        "value": 10
-	                        }
+							"size": {
+								"value": 50,
+								"random": false,
+								"anim": {
+									"enable": true,
+									"speed": 4,
+									"size_min": 10,
+									"sync": true
+								}
+							}
 	                    },
 	                    "interactivity": {
 	                        "events": {

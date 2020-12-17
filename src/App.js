@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import emojify from "node-emojify";
 import {Jumbotron, Button} from "react-bootstrap";
 import LineParticles from './components/particleAnimations/LineParticles';
-import ProjectContainer from './components/projects/ProjectsContainer';
+//import ProjectContainer from './components/projects/ProjectsContainer';
 import NavigationBar from './components/navibar/Navbar';
-import EducationContainer from './components/education/EducationContainer';
-import SkillsContainer from './components/skills/SkillsContainer';
+//import EducationContainer from './components/education/EducationContainer';
+//import SkillsContainer from './components/skills/SkillsContainer';
 
 import "./App.css";
+import CardsContainer from './components/card/CardsContainer';
 export default class App extends Component {
   render() {
     return (
@@ -25,9 +26,8 @@ export default class App extends Component {
         <Button variant="outline-success" href="https://www.hackerrank.com/qwertyfellow" target="_blank" className="btnModified">Hackerrank</Button>
         <LineParticles/>
       </Jumbotron>
-      <ProjectContainer/>
-      <EducationContainer/>
-      <SkillsContainer/>
+      {/* <ProjectContainer/> */}
+      <CardsContainer/>
       </div>
 
     )

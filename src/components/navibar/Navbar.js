@@ -15,7 +15,7 @@ const NavigationBar = () => {
                     <Nav className="mr-auto">
                         <Link to="home" smooth="true" duration="300"><Nav.Link href="#home">Home</Nav.Link></Link>
                         <Link to="projectsContainer" smooth="true" duration="1000"><Nav.Link href="#projectsContainer">Projects</Nav.Link></Link>
-                        <Link to="skillsContainer" smooth="true" duration="300"><Nav.Link href="#skillsContainer">Skills</Nav.Link></Link>
+                        {/* <Link to="skillsContainer" smooth="true" duration="300"><Nav.Link href="#skillsContainer">Skills</Nav.Link></Link> */}
                     </Nav>
                 </Navbar.Collapse>
 
