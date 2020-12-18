@@ -14,8 +14,8 @@ const NavigationBar = () => {
                 <Navbar.Collapse>
                     <Nav className="mr-auto">
                         <Link to="home" smooth="true" duration="300"><Nav.Link href="#home">Home</Nav.Link></Link>
-                        <Link to="projectsContainer" smooth="true" duration="1000"><Nav.Link href="#projectsContainer">Projects</Nav.Link></Link>
-                        {/* <Link to="skillsContainer" smooth="true" duration="300"><Nav.Link href="#skillsContainer">Skills</Nav.Link></Link> */}
+                        <Link to="chipsContainer" smooth="true" duration="500"><Nav.Link href="#chipsContainer">Skills</Nav.Link></Link>
+                        <Link to="projectsContainer" smooth="true" duration="500"><Nav.Link href="#projectsContainer">Projects</Nav.Link></Link>
                     </Nav>
                 </Navbar.Collapse>
 

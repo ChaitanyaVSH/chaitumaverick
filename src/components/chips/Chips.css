@@ -1,0 +1,40 @@
+.ChipsContainer {
+  background-color: lightblue;
+  height: 100vh;
+  padding: 30vh 15rem;
+  /* padding-top: 30vh;
+  padding-right: 15rem;
+  padding-left: 15rem; */
+  margin: auto;
+}
+
+.chips {
+  display: inline-block;
+  color: black;
+  background-color: white;
+  padding: 0 25px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 25px;
+  margin: 1rem;
+}
+
+.Chipimg {
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin: 0px 10px 0px -25px;
+  border-radius: 25px;
+}
+
+@media (max-width: 1000px) {
+  .ChipsContainer {
+    padding: 0px;
+    padding-top: 50px;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -3,7 +3,7 @@
 }
 
 img {
-  width: 100%;
+  width: auto;
 }
 
 #temp {
@@ -27,6 +27,7 @@ img {
 
 .lineParticles {
   display: block;
+  height: 63vh;
 }
 
 .skillsContainer,

@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 import emojify from "node-emojify";
 import {Jumbotron, Button} from "react-bootstrap";
-import LineParticles from './components/particleAnimations/LineParticles';
-//import ProjectContainer from './components/projects/ProjectsContainer';
 import NavigationBar from './components/navibar/Navbar';
+import LineParticles from './components/particleAnimations/LineParticles';
+import ChipsContainer from './components/chips/ChipsContainer';
+import ProjectContainer from './components/projects/ProjectsContainer';
+import "./App.css";
+
+
 //import EducationContainer from './components/education/EducationContainer';
 //import SkillsContainer from './components/skills/SkillsContainer';
+//import CardsContainer from './components/card/CardsContainer';
 
-import "./App.css";
-import CardsContainer from './components/card/CardsContainer';
 export default class App extends Component {
   render() {
     return (
@@ -27,7 +30,9 @@ export default class App extends Component {
         <LineParticles/>
       </Jumbotron>
       {/* <ProjectContainer/> */}
-      <CardsContainer/>
+      <ChipsContainer/>
+      {/* <CardsContainer/> */}
+      <ProjectContainer/>
       </div>
 
     )
@@ -35,9 +40,9 @@ export default class App extends Component {
   /**
    * 1. Fix the CSS Bug for smaller screens. DONE
    * 2. Implement the favorite quotes component to be in the center of the screen.
-   * 3. Explore Apple Desing system and pick the components styles/layouts.
+   * 3. Explore Apple Desing system and pick the components styles/layouts. DONE
    * 4. Use cards to design the projects worked so far. https://react-bootstrap.github.io/components/cards/ || https://react-bootstrap.github.io/components/cards/#title-text-and-links DONE
-   * 5. Add Skills using Progress Bar plugins
+   * 5. Add Skills using Chips DONE
    * 6. Add Education using Card components
    */
 }
