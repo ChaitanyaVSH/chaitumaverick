@@ -27,6 +27,7 @@ export default class App extends Component {
         <Button variant="outline-warning" href="https://github.com/ChaitanyaVSH" target="_blank" className="btnModified">Github</Button>
         <Button variant="outline-info" href="https://www.linkedin.com/in/kotipalli-chaitanya-977917150/" target="_blank" className="btnModified">LinkedIN</Button>
         <Button variant="outline-success" href="https://www.hackerrank.com/qwertyfellow" target="_blank" className="btnModified">Hackerrank</Button>
+        <Button variant="outline-danger" href="https://dev.to/chaitanyavsh" target="_blank" className="btnModified">DEV</Button>
         <LineParticles/>
       </Jumbotron>
       {/* <ProjectContainer/> */}
