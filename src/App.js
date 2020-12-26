@@ -1,13 +1,23 @@
 import React, { Component } from 'react';
+
+/**
+ * Third party libraries || plugins
+ */
 import emojify from "node-emojify";
-import {Jumbotron, Button} from "react-bootstrap";
-import NavigationBar from './components/navibar/Navbar';
-import LineParticles from './components/particleAnimations/LineParticles';
-import ChipsContainer from './components/chips/ChipsContainer';
-import ProjectContainer from './components/projects/ProjectsContainer';
+
+/**
+ * CSS Stylesheets
+ */
 import "./App.css";
 
-
+/**
+ * Components
+ */
+import {Jumbotron, Button} from "react-bootstrap";
+import NavigationBar from './components/navbar/Navbar';
+import LineParticles from './components/particleAnimations/LineParticles';
+import ChipsContainer from './components/chips/ChipsContainer';
+import CardsContainer from './components/sleeckcards/CardsContainer';
 //import EducationContainer from './components/education/EducationContainer';
 //import SkillsContainer from './components/skills/SkillsContainer';
 //import CardsContainer from './components/card/CardsContainer';
@@ -32,8 +42,9 @@ export default class App extends Component {
       </Jumbotron>
       {/* <ProjectContainer/> */}
       <ChipsContainer/>
-      {/* <CardsContainer/> */}
-      <ProjectContainer/>
+      {/* <CardsContainer/>
+      <ProjectContainer/> */}
+      <CardsContainer/>
       </div>
 
     )

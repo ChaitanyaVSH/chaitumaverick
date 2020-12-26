@@ -18,7 +18,7 @@ const projects = [
     {
         "title":"Chaitu Maverick",
         "subtitle":"A personal portfolio",
-        "description":"This personal portfolio is a beginner level portfolio to track academics, projects, skills",
+        "description":"This personal portfolio is a beginner level portfolio to track academics, projects, skills. This portfolio keeps evolving on a daily basis and built using react and various third party plugins",
         "link":"https://chaitumaverick.netlify.app/",
         "github":"https://github.com/ChaitanyaVSH/chaitumaverick",
         "logo":"https://i.gifer.com/YCZM.gif"
@@ -34,7 +34,7 @@ const projects = [
     {
         "title":"MusicAPI",
         "subtitle":"3P npm package",
-        "description":"A REST endpoint resource that returns the music data based on the genres and artists",
+        "description":"A REST endpoint resource that returns the music data based on the genres and artists. This data is made so generic that it can integrated with any of the client code",
         "link":"",
         "github":"https://github.com/ChaitanyaVSH/MusicAPI",
         "logo":"https://miro.medium.com/max/1360/1*IRGHmiGsa16stedQvIaZfw.gif"

@@ -3,7 +3,6 @@ import Chips from "./Chips";
 import Skills from "../../data/skills";
 
 const ChipsContainer = () => {
-    console.log(Skills);
     return (
         <div className="chipsContainer">
             <div className="ChipsContainer">

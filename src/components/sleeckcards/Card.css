@@ -1,0 +1,42 @@
+.sleeckCardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.sleeckCard {
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  border: 1px solid #d7d7d7;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.sleeckCard:hover {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.1s ease-out;
+}
+
+#cardParaGraph {
+  font-size: 0.975rem;
+  line-height: 1.79;
+  color: #333;
+}
+
+#cardHeadingTwo {
+  font-size: 2.375rem;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: -0.39px;
+  color: #4a4a4a;
+  margin-bottom: 40px;
+}
+
+/* https://stackoverflow.com/a/48406917 */
+#cardBottomDiv {
+  margin-top: auto;
+}
