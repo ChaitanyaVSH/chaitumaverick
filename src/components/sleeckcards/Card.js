@@ -9,8 +9,8 @@ const Card = ({title, subtitle, description, link, github,}) => {
             <h2 id="cardHeadingTwo">{title}</h2>
             <p id="cardParaGraph">{description}</p>
             <div id="cardBottomDiv">
-                <a href="https://google.com">See Application</a>{' || '}
-                <a href="https://google.com">Github</a>
+                <a href={link}>See Application</a>{' || '}
+                <a href={github}>Github</a>
             </div>
         </div>
     );
