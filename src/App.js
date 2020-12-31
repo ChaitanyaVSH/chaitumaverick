@@ -4,6 +4,8 @@ import React, { Component } from 'react';
  * Third party libraries || plugins
  */
 import emojify from "node-emojify";
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 /**
  * CSS Stylesheets
@@ -23,6 +25,18 @@ import CardsContainer from './components/sleeckcards/CardsContainer';
 //import CardsContainer from './components/card/CardsContainer';
 
 export default class App extends Component {
+
+  componentDidMount(){
+  
+    // https://www.freecodecamp.org/news/how-to-understand-a-components-lifecycle-methods-in-reactjs-e1a609840630/
+    // https://github.com/fkhadra/react-toastify/issues/182#issuecomment-392580723
+
+    toast.success("Happy New Year 2021 :)");
+    toast.info("Wish you good luck and good health");
+    
+  }
+
+
   render() {
     return (
 
@@ -45,6 +59,7 @@ export default class App extends Component {
       {/* <CardsContainer/>
       <ProjectContainer/> */}
       <CardsContainer/>
+      <ToastContainer/>
       </div>
 
     )
