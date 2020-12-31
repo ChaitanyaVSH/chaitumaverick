@@ -30,7 +30,7 @@ export default class App extends Component {
         <NavigationBar/>
         <Jumbotron fluid id="temp">
         <h1 className="display-3">Hey, I'm Chaitu Maverick</h1>
-        <p>Knock Knock</p>
+        <p>Knock Knock, Do romance with any of your work... {emojify(":wink:")}</p>
         <p>You can always find me loving myself... {emojify(":heart:")}</p>
         <p>Life is never only about <code>ctrl C</code> and <code>ctrl V</code></p>
         <br/>
