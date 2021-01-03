@@ -5,12 +5,13 @@ import React, { Component } from 'react';
  */
 import emojify from "node-emojify";
 import { toast, ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+
 
 /**
  * CSS Stylesheets
  */
 import "./App.css";
+import 'react-toastify/dist/ReactToastify.css';
 
 /**
  * Components

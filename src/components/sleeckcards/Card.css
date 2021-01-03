@@ -12,6 +12,12 @@
   border-radius: 10px;
   padding: 2rem;
   margin: 2rem auto;
+  box-sizing: border-box;
+
+  /* https://stackoverflow.com/a/48406917  */
+  /*
+    1. To place the div under the bottom of the container
+  */
   display: flex;
   flex-direction: column;
 }
@@ -39,4 +45,15 @@
 /* https://stackoverflow.com/a/48406917 */
 #cardBottomDiv {
   margin-top: auto;
+}
+
+@media (max-width: 850px) {
+  .sleeckCard {
+    width: auto;
+    margin: 2rem 2rem;
+  }
+
+  .sleeckCardsContainer {
+    display: inline;
+  }
 }

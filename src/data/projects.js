@@ -24,7 +24,7 @@ const projects = [
         "logo":"https://i.gifer.com/YCZM.gif"
     },
     {
-        "title":"GreetingMessage",
+        "title":"Greeting Message",
         "subtitle":"Helper npm package",
         "description":"Greeting Message is a npm helper package/module that generates dynamic welcoming messages based on the time of the day",
         "link":"https://www.npmjs.com/package/greetingmessage",
