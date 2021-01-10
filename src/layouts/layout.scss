@@ -1,0 +1,70 @@
+// REFER https://stackoverflow.com/questions/64625050/error-node-sass-version-5-0-0-is-incompatible-with-4-0-0 for node-sass incompatability
+$base-px: 8px;
+$base-padding: $base-px * 2;
+
+.flex {
+  display: flex;
+  &.flex-align-right > div:last-child {
+    margin-left: auto;
+  }
+
+  &.flex-align-left > div:last-child {
+    margin-right: auto;
+  }
+
+  &.flex-margin-top {
+    margin-top: 500px;
+  }
+}
+
+.ds-page {
+  border: 0px solid #333;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  height: auto;
+  &:not(.ds-page--fullwidth) {
+    margin: 0 auto;
+    max-width: 960px;
+  }
+  &.ds-page--fullwidth {
+    max-width: 100%;
+    margin: 0 $base-px * 10;
+  }
+}
+
+.ds-box {
+  border: 1px solid black;
+  margin: 5px;
+  text-align: left;
+
+  &.ds-box-width-default {
+    width: 400px;
+  }
+
+  &.ds-box-width-medium {
+    width: 750px;
+  }
+
+  &.ds-box-width-large {
+    width: 1020px;
+  }
+
+  &.ds-box-border--light {
+    border: 1px;
+  }
+  &.ds-box-border--thick {
+    border-width: $base-px;
+  }
+
+  &.ds-box--default {
+    padding: $base-padding;
+  }
+
+  &.ds-box--double-space {
+    padding: $base-padding * 2;
+  }
+
+  &.ds-box--default--no-space {
+    padding: 0;
+  }
+}
