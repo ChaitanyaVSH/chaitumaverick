@@ -6,12 +6,13 @@ export class App extends Component {
     return (
       <div className="App">
         <Page>
-          <Flex lastElRight={true}>
-            <Box boxStyle={BoxStyle.doubleSpace}>
-              A simple flexbox
-            </Box>
+          <Flex lastElRight={false}>
+            <Box boxStyle={BoxStyle.doubleSpace}>A simple flexbox</Box>
             <Box boxStyle={BoxStyle.doubleSpace}>Middle</Box>
             <Box>and this goes to the right</Box>
+            <Box boxStyle={BoxStyle.noSpace}>No Space</Box>
+            <Box boxStyle={BoxStyle.noSpace}>No Space</Box>
+            <Box boxStyle={BoxStyle.doubleSpace}>End</Box>
           </Flex>
 
 
@@ -23,6 +24,8 @@ export class App extends Component {
                 <input></input>
                 <br></br>
                 <input></input>
+                <h2>This is heading 2, which is fitting inside and does not come out.</h2>
+                <h2>This is heading 2, which is fitting inside and does not come out.</h2>
               </div>
             </Box>
           </Flex>
@@ -48,7 +51,7 @@ export class App extends Component {
 
 
           <Flex lastElLeft={true} marginTop={true}>
-            <Box boxWidth={BoxWidthStyle.mediumWidth}>and this goes to the left, bottom and medium width</Box>
+            <Box boxWidth={BoxWidthStyle.largeWidth}>and this goes to the left, bottom and medium width</Box>
           </Flex>
 
           <Flex>

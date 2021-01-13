@@ -4,8 +4,11 @@ $base-padding: $base-px * 2;
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   &.flex-align-right > div:last-child {
     margin-left: auto;
+    margin-right: 8px;
   }
 
   &.flex-align-left > div:last-child {
