@@ -32,8 +32,10 @@ export default class App extends Component {
     // https://www.freecodecamp.org/news/how-to-understand-a-components-lifecycle-methods-in-reactjs-e1a609840630/
     // https://github.com/fkhadra/react-toastify/issues/182#issuecomment-392580723
 
-    toast.success("Happy New Year 2021 :)");
-    toast.info("Wish you good luck and good health");
+    toast.success("This portfolio keeps evolving based on different applications");
+    toast.info("Click on nav list items to see the smooth scroll");
+    toast.error("Cards used for projects are inspired from PhonePe homepage")
+
     
   }
 
@@ -54,13 +56,13 @@ export default class App extends Component {
         <Button variant="outline-success" href="https://www.hackerrank.com/qwertyfellow" target="_blank" className="btnModified">Hackerrank</Button>
         <Button variant="outline-danger" href="https://dev.to/chaitanyavsh" target="_blank" className="btnModified">DEV</Button>
         <LineParticles/>
-      </Jumbotron>
-      {/* <ProjectContainer/> */}
-      <ChipsContainer/>
-      {/* <CardsContainer/>
-      <ProjectContainer/> */}
-      <CardsContainer/>
-      <ToastContainer/>
+        </Jumbotron>
+        {/* <ProjectContainer/> */}
+        <ChipsContainer/>
+        {/* <CardsContainer/>
+        <ProjectContainer/> */}
+        <CardsContainer/>
+        <ToastContainer/>
       </div>
 
     )
