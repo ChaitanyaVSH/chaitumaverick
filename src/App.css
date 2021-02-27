@@ -30,7 +30,18 @@ img {
   height: 63vh;
 }
 
-.skillsContainer,
+.circleContainer {
+  background: black;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.circleContainer img {
+  width: 100%;
+}
+
 .countersContainer {
   margin: 1rem;
   text-align: center;

@@ -20,6 +20,7 @@ import CardsContainer from './components/sleeckcards/CardsContainer';
 import ChipsContainer from './components/chips/ChipsContainer';
 import LineParticles from './components/particleAnimations/LineParticles';
 import NavigationBar from './components/navbar/Navbar';
+import Circle from './components/circles/Circle';
 
 export default class App extends Component {
 
@@ -57,7 +58,7 @@ export default class App extends Component {
         <ChipsContainer/>
         
         <CardsContainer/>
-        
+        {/* <Circle/> */}
         <ToastContainer
           position="top-right"
           autoClose={7000}

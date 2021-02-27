@@ -1,5 +1,8 @@
 .ChipsContainer {
-  background-color: lightblue;
+  /* https://dev.di7tazxmp7xob.amplifyapp.com/gradient/62 */
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #000000, #434343);
+  background: linear-gradient(to bottom, #000000, #434343);
   height: 100vh;
   padding: 30vh 15rem;
   /* padding-top: 30vh;
