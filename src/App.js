@@ -4,8 +4,7 @@ import React, { Component } from 'react';
  * Third party libraries || plugins
  */
 import emojify from "node-emojify";
-import { toast, ToastContainer } from 'react-toastify';
-
+import { ToastContainer, toast } from 'react-toastify';
 
 /**
  * CSS Stylesheets
@@ -17,13 +16,10 @@ import 'react-toastify/dist/ReactToastify.css';
  * Components
  */
 import {Jumbotron, Button} from "react-bootstrap";
-import NavigationBar from './components/navbar/Navbar';
-import LineParticles from './components/particleAnimations/LineParticles';
-import ChipsContainer from './components/chips/ChipsContainer';
 import CardsContainer from './components/sleeckcards/CardsContainer';
-//import EducationContainer from './components/education/EducationContainer';
-//import SkillsContainer from './components/skills/SkillsContainer';
-//import CardsContainer from './components/card/CardsContainer';
+import ChipsContainer from './components/chips/ChipsContainer';
+import LineParticles from './components/particleAnimations/LineParticles';
+import NavigationBar from './components/navbar/Navbar';
 
 export default class App extends Component {
 
@@ -42,9 +38,9 @@ export default class App extends Component {
 
   render() {
     return (
-
       <div id="home">
         <NavigationBar/>
+        
         <Jumbotron fluid id="temp">
         <h1 className="display-3">Hey, I'm Chaitu Maverick</h1>
         <p>Knock Knock, Do romance with any of your work... {emojify(":wink:")}</p>
@@ -57,14 +53,22 @@ export default class App extends Component {
         <Button variant="outline-danger" href="https://dev.to/chaitanyavsh" target="_blank" className="btnModified">DEV</Button>
         <LineParticles/>
         </Jumbotron>
-        {/* <ProjectContainer/> */}
-        <ChipsContainer/>
-        {/* <CardsContainer/>
-        <ProjectContainer/> */}
-        <CardsContainer/>
-        <ToastContainer/>
-      </div>
 
+        <ChipsContainer/>
+        
+        <CardsContainer/>
+        
+        <ToastContainer
+          position="top-right"
+          autoClose={7000}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+        />
+      </div>
     )
   }
   /**
