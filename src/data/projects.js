@@ -38,6 +38,14 @@ const projects = [
         "link":"",
         "github":"https://github.com/ChaitanyaVSH/MusicAPI",
         "logo":"https://miro.medium.com/max/1360/1*IRGHmiGsa16stedQvIaZfw.gif"
+    },
+    {
+        "title":"Expenser",
+        "subtitle":"Personal Finance Management Application",
+        "description":"A micro finance management application which helps you in tracking day to day expenses, gives you a wonderful dashboard to track your expenses across months to years.",
+        "link":"https://expenser-kappa.vercel.app/",
+        "github":"https://github.com/ChaitanyaVSH/expenser",
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Emblem-money.svg/1024px-Emblem-money.svg.png"
     }
 ]
 
