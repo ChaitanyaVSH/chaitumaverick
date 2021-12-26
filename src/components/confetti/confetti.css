@@ -38,6 +38,15 @@ img {
     height: 100%;
 }
 
+h1 {
+    font-size: clamp(1rem, 5vw, 4rem);
+}
+
+h5 {
+    height: 60px;
+    font-size: clamp(0.5rem, 4vw, 1.5rem);
+}
+
 @media(max-width: 800px) {
     .wishingMessage {
         grid-template-columns: 1fr;

@@ -12,6 +12,7 @@
     "bootstrap": "^4.5.3",
     "chart.js": "^2.9.4",
     "chartjs": "^0.3.24",
+    "ityped": "^1.0.3",
     "material-react-toastify": "^1.0.1",
     "moving-letters": "^1.0.1",
     "node-emojify": "0.0.15",
