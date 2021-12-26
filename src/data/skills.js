@@ -15,7 +15,7 @@ const skills = [
         "name":"ExpressJS",
         "expertise":"Beginner",
         "experience":"1 year",
-        "logo":"https://aglowiditsolutions-6lohnuosd1nx.netdna-ssl.com/wp-content/uploads/2018/12/ExpressJS.png"
+        "logo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPWXoi7cy3HEsFJ8kqj7FQisLz0IBP9r7hW-4RysSgRZKI0BLQm46I0nn-PwKi2112FaU&usqp=CAU"
     },
     {
         "name":"JavaScript",
