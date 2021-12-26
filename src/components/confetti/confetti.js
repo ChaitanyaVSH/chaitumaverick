@@ -32,6 +32,7 @@ const ConfettiComponent = () => {
                 <img src={image} alt="2022"/>
                 <div className="wishesContent">
                     <h1>Happy New Year</h1>
+                    {/* eslint-disable-next-line */}
                     <h5 id="chm_ityped_text_handler"></h5>
                 </div>
             </div>
