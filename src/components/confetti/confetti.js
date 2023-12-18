@@ -29,7 +29,7 @@ const ConfettiComponent = () => {
                 height={1200}
             />
             <div className="wishingMessage">
-                <img src={image} alt="2022"/>
+                <img src="https://png.pngtree.com/png-clipart/20230504/original/pngtree-happy-new-year-2024-png-image_9138916.png" alt="2024"/>
                 <div className="wishesContent">
                     <h1>Happy New Year</h1>
                     {/* eslint-disable-next-line */}
