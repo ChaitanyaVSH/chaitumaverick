@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { init } from 'ityped';
-import image from "../../assets/flame-new-year-party-2022.png";
 import Confetti from 'react-confetti';
 import "./confetti.css"
 
